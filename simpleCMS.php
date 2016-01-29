@@ -1,6 +1,5 @@
 <?php
-class simpleCMS {	
-//Połączenie z bazą
+class simpleCMS {
 var $host="localhost";
 var $username="root";
 var $password="";
