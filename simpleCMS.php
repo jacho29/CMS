@@ -1,12 +1,13 @@
 <?php
 class simpleCMS {	
+//Połączenie z bazą
 var $host="localhost";
 var $username="root";
 var $password="";
 var $table;
 
   
-public function write($p) {
+public function save($p) {
 if ( $_POST['id'] )
 $id = mysql_real_escape_string($_POST['id']);
 if ( $_POST['title'] )
