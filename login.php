@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="style.css">
 <div id="tytul"><center>KRÓLEWSKI CMS</center></div><div id="content">
+</head>
 <?php
 session_start();
 //ustawienia administratora(login i hasło)
@@ -58,3 +59,4 @@ function display_login_form(){ ?>
 <a href="index.php?admin=1">Panel Administracyjny</a><br>Stworzone przez Piotr Jaśkiewicz
 </center></div>
 </body>
+</html>
