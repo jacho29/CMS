@@ -9,7 +9,6 @@
 <?php
 include_once('simpleCMS.php');
 $obj = new simpleCMS();
-Połączenie z bazą
 $obj->host = 'localhost';
 $obj->username = 'root';
 $obj->password = '';
